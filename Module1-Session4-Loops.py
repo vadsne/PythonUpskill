@@ -41,7 +41,7 @@ while index < len(basket):
     if item['fruit'] == fruit:
         print(f"The basket has {item['qty']} {item['fruit']}(s)")
         found_it = True
-        break
+        break  # else is not execute
     index += 1
 else:  # it is the same as: "if not found_it:"
     qty = int(input(f'Enter the qty for {fruit}:'))

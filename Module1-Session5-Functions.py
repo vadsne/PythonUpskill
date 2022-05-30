@@ -54,10 +54,10 @@ def operations(a, b):
 
 
 add, sub, exp = operations(5, 6)
-operation_val = operations(5, 6)
+operation_val = operations(7, 8)
 print(add, sub, exp)
 print(operation_val)
-print('#' * 10 + ' not positional and keyword arguments ' + '#' * 10)
+print('#' * 10 + ' keyword arguments ' + '#' * 10)
 
 
 def my_new_function(*args):

@@ -25,7 +25,6 @@ def subtraction(a=None, b=None):
 
 subtraction()
 subtraction(10, 20)
-
 var = 100
 global another_var
 
@@ -101,6 +100,6 @@ def square_or_square_root(arr):
     return new_array
 
 
-array = [4, 3, 9, 7, 125, 1, 0]
+array = [4, 3, 9, 7, 125, 1, 0, 625]
 print(array)
 square_or_square_root(array)

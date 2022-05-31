@@ -1,4 +1,6 @@
-# try-except
+# https://docs.python.org/3/library/exceptions.html
+# try-except usage
+#
 # syntax error example
 # while True print('Hello world')
 
